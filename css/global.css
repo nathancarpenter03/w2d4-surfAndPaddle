@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+/*Header Styling*/
+header {
+    background: linear-gradient(rgba(47, 117, 179, 0.75), rgba(47, 117, 179, 0.75)), url(https://unsplash.it/600/600?image=1041);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-logo {
+    padding-top: 20px;
+}
+
+.col-logo img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.col-logo span {
+    font-size: 18px;
+    font-weight: normal;
+    color: #003366 ;
+}
+
+.col-nav {
+    padding-top: 20px;
+}
+
+.col-nav a {
+    color: #003366 ;
+    margin-right: 40px;
+}
+
+.col-nav a:last-child {
+    margin: 0;
+}
+
+.col-brand {
+    padding: 65px 0 65px 0;
+}
+
+.col-brand h1 {
+    font-family: 'Sansita', sans-serif;
+    color: white;
+    font-size: 8vw;
+    margin: 0;
+}
+
+.col-brand span {
+    font-weight: bold;
+    color: #003366
+}
+
+/*Main Section Styling*/
+
+.left-column {
+    margin-top: 30px;
+}
+
+.left-column h1 {
+    font-size: 3.75vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.image-headshot-leftcolumn {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#authorname-left {
+    color: #256B9E;
+}
+
+#timestamp {
+    color: grey;
+}
+
+#authorname-right {
+    color: #256B9E;
+}
+
+#quote-radical {
+    color: #256B9E;
+    font-size: 2vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.button-icon {
+    color: white;
+    background: #053353;
+    padding: 5px 7px;
+    display: inline-block;
+}
+
+.button-label {
+    background-color: grey;
+    color: white;
+    padding: 5px 7px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: -5px;
+
+}
+
+.button-blue {
+    background: #016BB5;
+}
+
+.right-column {
+    margin-top: 50px;
+}
+.image-headshot-rightcolumn {
+    display: block;
+    margin: 0 auto;
+    width: 15vh;
+    border-radius: 50%;
+}
+
+.author-right-name {
+    text-align: center;
+    color: #256B9E;
+    font-size: 1.25vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 10px;
+}
+
+.social-right {
+    text-align: center;
+    color: gray;
+    font-size: 1vw;
+}
+
+.picture-right {
+    background: linear-gradient( rgba(31, 82, 127, 0.66), rgba(31, 82, 127, 0.66) ), url(../images/surfdog.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20vw;
+    margin-top: 3vw;
+}
+
+.picture-right-link {
+    text-align: right;
+    color: grey;
+}
+
+.sidebar-heading {
+    text-align: center;
+    color: #256B9E;
+    font-size: 1.25vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.right-paragraph {
+    font-size: 13px;
+    color: gray;
+}
+
+/*Footer Styling*/
+
+.popular-posts {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+}
+
+footer .posts {
+    display: flex;
+}
+
+footer .post {
+    flex: 3;
+    height: 25vw;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#post1 {
+    background-image: linear-gradient(rgba(47,117,179,0.75), rgba(47,117,179,0.75)), url(https://unsplash.it/600/600?image=953);
+    font-family: 'Sansita', sans-serif;
+}
+
+#post1:hover {
+    background-image:  url(https://unsplash.it/600/600?image=953); 
+    color: white;
+    font-family: 'Sansita', sans-serif;
+}
+
+#post2 {
+    background-image: linear-gradient(rgba(47,117,179,0.75), rgba(47,117,179,0.75)), url(https://unsplash.it/600/600?image=944);
+    font-family: 'Sansita', sans-serif;
+}
+
+#post2:hover {
+    background-image:  url(https://unsplash.it/600/600?image=944);  
+    color: white;
+    font-family: 'Sansita', sans-serif;
+}
+
+#post3 {
+    background-image: linear-gradient(rgba(47,117,179,0.75), rgba(47,117,179,0.75)), url(https://unsplash.it/600/600?image=899);
+    font-family: 'Sansita', sans-serif;
+}
+
+#post3:hover {
+    background-image:  url(https://unsplash.it/600/600?image=899);  
+    color: white;
+    font-family: 'Sansita', sans-serif;
+}
+
+#post4 {
+    background-image: linear-gradient(rgba(47,117,179,0.75), rgba(47,117,179,0.75)), url(https://unsplash.it/600/600?image=839);
+    font-family: 'Sansita', sans-serif;
+}
+
+#post4:hover {
+    background-image:  url(https://unsplash.it/600/600?image=839);  
+    color: white;
+    font-family: 'Sansita', sans-serif;
+}
+
+.copyright {
+    background: #053353;
+    color: white;
+    padding: 20px;
+}
+
+.copyright a {
+    color: azure;
+    margin: 0 20px;
+}
+
+
+
